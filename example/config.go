@@ -17,11 +17,11 @@ package main
 import (
 	"io/ioutil"
 
+	"go-githubapp/githubapp"
+
 	"github.com/palantir/go-baseapp/baseapp"
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
-
-	"github.com/palantir/go-githubapp/githubapp"
 )
 
 type Config struct {

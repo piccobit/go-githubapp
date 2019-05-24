@@ -19,11 +19,11 @@ import (
 	"encoding/json"
 	"fmt"
 
+	"go-githubapp/githubapp"
+
 	"github.com/google/go-github/v25/github"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
-
-	"github.com/palantir/go-githubapp/githubapp"
 )
 
 type PRCommentHandler struct {

@@ -17,11 +17,11 @@ package main
 import (
 	"os"
 
+	"go-githubapp/githubapp"
+
 	"github.com/palantir/go-baseapp/baseapp"
 	"github.com/rs/zerolog"
 	"goji.io/pat"
-
-	"github.com/palantir/go-githubapp/githubapp"
 )
 
 func main() {
