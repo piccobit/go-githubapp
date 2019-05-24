@@ -1,4 +1,4 @@
-module github.com/piccobit/go-githubapp
+module go-githubapp
 
 go 1.12
 
